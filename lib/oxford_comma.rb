@@ -4,6 +4,6 @@ def oxford_comma(array)
   elsif array.length < 3
     return array.join(" and ")
   elsif array.length == 3
-    return #{array.join(", ")}
+    return #{array[1..3].join(" ,")}
   end
 end
